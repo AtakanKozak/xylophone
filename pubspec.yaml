@@ -1,0 +1,46 @@
+name: xylophone
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  sizer: ^2.0.13
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  audioplayers: ^0.19.1
+  google_fonts: ^2.1.0
+  font_awesome_flutter: ^9.1.0
+  flutter_svg: ^0.22.0
+  flutter_launcher_icons: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/sound/
+    - assets/image/
+    - assets/fonts/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+    - family: NotoSansJP
+      fonts:
+        - asset: assets/fonts/NotoSansJP-Regular.otf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+    - family: Niveau
+      fonts:
+        - asset: assets/fonts/Niveau Grotesk Bold.otf
