@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "466443254998",
+    "project_id": "xylophone-32004",
+    "storage_bucket": "xylophone-32004.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466443254998:android:c79f26fd495bdc72365d77",
+        "android_client_info": {
+          "package_name": "com.example.xylophone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466443254998-9jt461050sa1mniaj3q5scgthnrlfsht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy-OjNmDUq8ZgHbNmOFq5Zz2YIsvNOPUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466443254998-9jt461050sa1mniaj3q5scgthnrlfsht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

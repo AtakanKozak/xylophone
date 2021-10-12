@@ -6,6 +6,7 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
+
 dependencies:
   sizer: ^2.0.13
   flutter:
@@ -13,7 +14,12 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   audioplayers: ^0.19.1
+  riverpod: ^1.0.0-dev.6
+  google_mobile_ads: ^0.13.3
   google_fonts: ^2.1.0
+  flutter_local_notifications: ^8.0.0
+  firebase_messaging: ^10.0.4
+  firebase_core: ^1.4.0
   font_awesome_flutter: ^9.1.0
   flutter_svg: ^0.22.0
   flutter_launcher_icons: ^0.9.1

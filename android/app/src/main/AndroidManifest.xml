@@ -3,7 +3,12 @@
    <application
         android:label="xylophone"
         android:icon="@mipmap/ic_launcher">
-        <activity
+       <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+       <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-5230934662944007~6129729545"/>
+       <meta-data
+           android:name="com.google.firebase.messaging.default_notification_icon"
+           android:resource="@mipmap/app_icons_foreground" />
+       <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
